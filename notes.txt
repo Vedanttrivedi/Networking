@@ -11,7 +11,9 @@ Public IP addresses are unique identifiers assigned to devices connected to the 
 Private IP addresses, on the other hand, are used within private networks (like home or office networks) to allow devices to communicate with each other locally. They are not directly accessible from the internet.
 
 Example:
-Let's say you have a home network with multiple devices (computers, smartphones, smart TVs) connected to a router. Each device on this network will have a private IP address assigned by the router, such as 192.168.1.100 or 10.0.0.2. However, when any of these devices access the internet, they will use the public IP address assigned to your router by your ISP. This public IP address is what other devices on the internet use to communicate with your home network.
+Let's say you have a home network with multiple devices (computers, smartphones, smart TVs) connected to a router. Each device on this network will have a private IP address assigned by the router, such as 192.168.1.100 or 10.0.0.2. However, when any of these devices access the internet, they will use the public IP address assigned to your router by your ISP.
+
+This public IP address is what other devices on the internet use to communicate with your home network.
 
 
 IPv4 (Internet Protocol version 4) addresses are 32-bit numerical identifiers assigned to devices on a network. They are typically expressed in a dotted-decimal format, such as 192.168.1.1, where each section represents an octet (8 bits) of the address.
@@ -28,3 +30,27 @@ Let's break down the IPv4 address 192.168.1.1:
 - The fourth octet, 1, identifies a specific device (host) within that subnet.
 
 Together, these four octets uniquely identify a device on a network. For example, if you have a home network, your router might have the IPv4 address 192.168.1.1, and your computer might have the address 192.168.1.2. Each device on the network will have its unique combination of these four octets.
+
+1. Bandwidth: The maximum rate of data transfer across a given path or connection, usually measured in bits per second (bps), kilobits per second (kbps), megabits per second (Mbps), or gigabits per second (Gbps).
+
+2. Latency: The time it takes for a data packet to travel from the source to the destination, often measured in milliseconds (ms). Low latency indicates faster communication.
+
+3. Protocol: A set of rules governing the exchange of data between devices on a network. Common protocols include TCP/IP (Transmission Control Protocol/Internet Protocol), HTTP (Hypertext Transfer Protocol), and SMTP (Simple Mail Transfer Protocol).
+
+4. Router: A networking device that forwards data packets between computer networks. Routers operate at the network layer (Layer 3) of the OSI model.
+
+5. Switch: A networking device that connects multiple devices within a single local area network (LAN) and forwards data packets to their intended destination based on MAC addresses. Switches operate at the data link layer (Layer 2) of the OSI model.
+
+6. Firewall: A security device or software that monitors and controls incoming and outgoing network traffic based on predetermined security rules. Firewalls are used to protect networks from unauthorized access and malicious activity.
+
+7. IP Address: A unique numerical label assigned to each device connected to a network that uses the Internet Protocol (IP) for communication. IPv4 addresses are typically represented in dotted-decimal notation (e.g., 192.168.1.1), while IPv6 addresses are represented in hexadecimal format.
+
+8. DNS (Domain Name System): A hierarchical decentralized naming system for computers, services, or other resources connected to the Internet or a private network. DNS translates domain names (e.g., example.com) into IP addresses.
+
+9. DHCP (Dynamic Host Configuration Protocol): A network management protocol that dynamically assigns IP addresses and other network configuration parameters to devices on a network, eliminating the need for manual configuration.
+
+10. NAT (Network Address Translation): A technique used to modify network address information in packet headers while in transit across a router or firewall, allowing multiple devices on a local network to share a single public IP address.
+
+11. VPN (Virtual Private Network): A secure, encrypted connection established over a public network (e.g., the internet) that allows remote users to access a private network as if they were directly connected to it.
+
+12. OSI Model (Open Systems Interconnection Model): A conceptual framework that standardizes the functions of a telecommunication or computing system into seven layers, each responsible for specific tasks related to data communication. The layers include physical, data link, network, transport, session, presentation, and application.
