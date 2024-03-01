@@ -1,0 +1,30 @@
+Ethernet is a widely used networking technology that enables devices within a local area network (LAN) to communicate with each other. It uses a system of cables, switches, and routers to transmit data in the form of frames, employing a protocol that controls access to the network medium. Ethernet is known for its reliability, speed, and versatility, making it the foundation of most wired LANs.
+
+
+A NIC (Network Interface Card), also known as a network adapter or network card, is a hardware component that enables a computer or device to connect to a network and communicate with other devices over that network, typically using Ethernet, Wi-Fi, or other network technologies.
+
+Ethernet unicast is a network communication method where data is sent from one sender to a specific recipient device, identified by its unique MAC (Media Access Control) address, ensuring that only the intended recipient processes and receives the data, making it a one-to-one communication. This is the most common form of communication in Ethernet networks.
+
+
+Public IP addresses are unique identifiers assigned to devices connected to the internet, allowing them to communicate with other devices across the web. They are globally routable and are provided by internet service providers (ISPs). 
+
+Private IP addresses, on the other hand, are used within private networks (like home or office networks) to allow devices to communicate with each other locally. They are not directly accessible from the internet.
+
+Example:
+Let's say you have a home network with multiple devices (computers, smartphones, smart TVs) connected to a router. Each device on this network will have a private IP address assigned by the router, such as 192.168.1.100 or 10.0.0.2. However, when any of these devices access the internet, they will use the public IP address assigned to your router by your ISP. This public IP address is what other devices on the internet use to communicate with your home network.
+
+
+IPv4 (Internet Protocol version 4) addresses are 32-bit numerical identifiers assigned to devices on a network. They are typically expressed in a dotted-decimal format, such as 192.168.1.1, where each section represents an octet (8 bits) of the address.
+
+IPv4 address structure:
+- Consists of four octets separated by periods.
+- Each octet can range from 0 to 255, giving a total of approximately 4.3 billion unique addresses.
+
+Example:
+Let's break down the IPv4 address 192.168.1.1:
+- The first octet, 192, represents the network portion of the address.
+- The second octet, 168, further refines the network address.
+- The third octet, 1, specifies a subnet within the network.
+- The fourth octet, 1, identifies a specific device (host) within that subnet.
+
+Together, these four octets uniquely identify a device on a network. For example, if you have a home network, your router might have the IPv4 address 192.168.1.1, and your computer might have the address 192.168.1.2. Each device on the network will have its unique combination of these four octets.
